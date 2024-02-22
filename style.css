@@ -1,0 +1,53 @@
+:root{
+    --Moderateviolet: hsl(263, 55%, 52%);
+--Verydarkgrayishblue: hsl(217, 19%, 35%);
+--Verydarkblackishblue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+--Lightgray: hsl(0, 0%, 81%);
+--Lightgrayishblue: hsl(210, 46%, 95%);
+--font:'Barlow Semi Condensed', sans-serif;
+}
+
+.font-title{
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.font-text{
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 13px;
+}
+.bg-Lightgrayishblue{
+    background-color: var(--Lightgrayishblue);
+}
+.bg-Moderateviolet{
+    background-color: var(--Moderateviolet);
+}
+.bg-Verydarkgrayishblue{
+    background-color: var(--Verydarkgrayishblue);
+}
+.bg-white{
+    background-color: var(--White);
+}
+.bg-Verydarkblackishblue{
+    background-color: var(--Verydarkblackishblue);
+}
+.text-Lightgray{
+    color: var(--Lightgray);
+}
+.text-Verydarkgrayishblue{
+    color: var(--Verydarkgrayishblue);
+}
+.img_size{
+    width: 40px;
+    border-radius: 50%;
+}
+.box1{
+    
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 10px right 100px;
+    overflow: visible;
+}
